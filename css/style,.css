@@ -25,13 +25,7 @@
 #main-menu{
     display: flex;   
 }
-.menu-ham{
- 
-    
-}
-.menu-ham i{
-    cursor: pointer;
-}
+
 #main-menu a{
     text-decoration: none;
     margin: 10px;
@@ -222,19 +216,17 @@ section{
         display: none;
     }
     .header-container{
-        justify-content:space-around;
+        justify-content:center;
     }
-    .menu-ham{
-        display: block;
-        color: rgb(204, 121, 121);
-        position: absolute;
-        right: 1rem;
-        font-weight: 900;
+  
+    .menu-item{
+        text-align: center;
+         margin-top: 1rem;
     }
     #topButton{
         font-size: 18px;
         padding: 5px;
-         bottom:63px;
+         bottom: 85px;
          right: 5px;
     }
     .project-row{
@@ -262,6 +254,10 @@ section{
     
 }
 .container-footer{
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+#copyright{
+margin-top: 10px;
 }
 }
