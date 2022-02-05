@@ -17,18 +17,25 @@
     color: rgb(223, 217, 217);
   
 }
-#company-logo  h1{
-      
-
+#company-logo  span{
+     
+      color: rgb(240, 226, 32);
  }
 
 #main-menu{
-    display: flex;
+    display: flex;   
+}
+.menu-ham{
+ 
+    
+}
+.menu-ham i{
+    cursor: pointer;
 }
 #main-menu a{
     text-decoration: none;
     margin: 10px;
-    color: rgb(204, 121, 121);
+    color:  rgb(228, 65, 65);
 }
 #hero-image{
     height: 100vh;
@@ -44,8 +51,14 @@
     font-size: 50px;
     font-weight: bolder;
     color:#ccc;
-    opacity: 0.6;
+    opacity: 1;
+   
 
+}
+.tag-line img{
+ border-radius: 50%;
+ width: 100px;
+ height: 100px;
 }
 #topButton{
     position: fixed;
@@ -65,6 +78,9 @@
 #topButton:hover{
     background-color: #555;
     transition: 1s;
+}
+.menu-ham i{
+    color:  rgb(228, 65, 65);;
 }
 #our-story{
     padding: 25px 0;
@@ -112,7 +128,7 @@ img:hover{
     width: 100%;
     border-spacing: 10px;
     border-collapse: separate;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #project-table th{
     text-align: left;
@@ -120,7 +136,7 @@ img:hover{
 }
 #contact{
     width: 100%;
-    margin-top: 40px;
+    margin-top: 5px;
     margin-bottom: 60px;
 }
 #contact fieldset{
@@ -190,13 +206,23 @@ section{
   margin: 20px 0;
   font-weight: bold;
 }
-
+@media (max-width:1200px){
+   .header-container {
+       justify-content: space-between;
+   }
+}
 @media (max-width:800px){
+    body{
+        width: 100%;
+    }
+    #company-logo h1{
+        font-size: 25px;
+    }
     #main-menu{
         display: none;
     }
     .header-container{
-        justify-content: center;
+        justify-content:space-around;
     }
     .menu-ham{
         display: block;
@@ -207,8 +233,9 @@ section{
     }
     #topButton{
         font-size: 18px;
-        padding: 6px;
-         bottom:60px;
+        padding: 5px;
+         bottom:63px;
+         right: 5px;
     }
     .project-row{
      flex-direction: column;
@@ -230,4 +257,11 @@ section{
     width: 100%;
 }
 
+    .menu-item{
+    padding:0 5px;
+    
+}
+.container-footer{
+    justify-content: space-between;
+}
 }
