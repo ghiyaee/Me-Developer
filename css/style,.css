@@ -227,7 +227,7 @@ section{
         font-size: 18px;
         padding: 5px;
          bottom: 85px;
-         right: 5px;
+         right: 10px;
     }
     .project-row{
      flex-direction: column;
