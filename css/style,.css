@@ -227,7 +227,11 @@ section{
         font-size: 18px;
         padding: 5px;
          bottom: 85px;
+<<<<<<< HEAD
          right:10px;
+=======
+         right: 10px;
+>>>>>>> 8f010f1821248869e9cfc87574f00d0c12b42d54
     }
     .project-row{
      flex-direction: column;
